@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="rps.css" />
+  </head>
+  <body>
+    <div class="main_body">
+      <div class=" header_top container ">
+        <p class="head text-uppercase text-body-secondary">
+          let's play <span class="text-1 text-uppercase">rock,</span
+          ><span class="text-2 text-uppercase">paper,</span
+          ><span class="text-3 text-uppercase">and scissors</span>
+        </p>
+      </div>
+  
+      <div class="box d-flex">
+        <div class="ply-1 "></div>
+        <div class="against "><p>V \ S</p></div>
+        <div class="ply-2 "></div>
+      </div>
+  
+      <div class="container stage">
+          <button onclick="start_1()" class="btn-1 btn btn-lg bg-danger my-1">Player-1</button>
+      <button onclick="start_2()" class="btn-2 btn btn-lg bg-success my-1">Player-2</button>
+      </div>
+  
+     <div class="container text-center">
+      <div class="label mt-3 text-4 text-uppercase ">the winner is</div>
+      <div class="result ply-3 mt-2 d-flex justify-content-center">?</div>
+  
+      <button class="reset-btn text-uppercase  bg-success fs-4 my-1" onclick="reset()">Restart</button>
+     </div>
+    </div>
+
+    <script src="rpc.js"></script>
+  </body>
+</html>

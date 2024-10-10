@@ -1,0 +1,226 @@
+
+.main_body{
+    background-image:linear-gradient(rgba(210, 137, 27, 0.7),rgba(210, 137, 27, 0.7)),url("./images/gamebackground.png");
+    height: 100vh;
+    border: 5px solid black;
+    
+}
+
+/* url("./images/gamebackground.png") */
+.ply-1 {
+  height: 400px;
+  width: 400px;
+  border: 5px solid black;
+  background-color: white;
+  
+}
+.ply-2 {
+  height: 400px;
+  width: 400px;
+  border: 5px solid black;
+  background-color: white;
+}
+.box{
+    border: 5px solid black;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.against{
+    width: 150px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+.header_top{
+    height: 50px;
+    width: 900px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: #2d93a1;
+
+}
+.text-1{
+   color: red;   
+}
+.text-2{
+color: blue;
+}
+.text-3{
+color: greenyellow;
+}
+.text-4{
+    font-size: 40px;
+}
+.result{
+width: 200px;
+height: 60px; 
+background-color: rgb(211, 65, 116);
+font-size: 40px;
+margin: 0 auto;
+
+}
+.label{
+  background-color: blanchedalmond;
+  width: 500px;
+  margin: 0 auto;
+  border: 4px solid black;
+}
+.reset-btn{
+    width: 200px;
+    height: 40px; 
+    border: 2px solid rgb(193, 187, 187);
+}
+.stage{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    gap: 200px;
+    background-color: #2d93a1;
+   
+}
+.rock {
+  background-image: url("./images/rock.png");
+  height: 400px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid red;
+  background-color: white;
+}
+.paper {
+  background-image: url("./images/paper.png");
+  height: 400px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid red;
+  background-color: white;
+}
+.scissors {
+  background-image: url("./images/scissors.png");
+  height: 400px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid red;
+  background-color: white;
+}
+
+.none1 {
+  background-image: none;
+  height: 400px;
+  width: 400px;
+  border: 2px solid red;
+  background-color: white;
+}
+.none2 {
+  background-image: none;
+  height: 400px;
+  width: 400px;
+  border: 2px solid red;
+  background-color: white;
+}
+
+.face1 {
+  height: 400px;
+  width: 400px;
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+      background-image: url("./images/rock.png");
+      background-repeat: no-repeat;
+      background-position:center;
+      border: 3px solid rgb(11, 241, 11);
+      background-color: white;
+      
+    }
+    10% {
+      background-image: url("./images/paper.png");
+      background-repeat: no-repeat;
+      background-position:center;
+       border: 3px solid rgb(11, 241, 11); 
+        background-color: white;     
+    }
+    20% {
+      background-image: url("./images/scissors.png");
+      background-repeat: no-repeat;
+      background-position:center;
+       border: 3px solid rgb(11, 241, 11); 
+        background-color: white;     
+    }
+    30% {
+      background-image: url("./images/rock.png");
+      background-repeat: no-repeat;
+      background-position:center;
+      border: 3px solid rgb(11, 241, 11);
+       background-color: white;
+      
+    }
+    40% {
+      background-image: url("./images/paper.png");
+      background-repeat: no-repeat;
+      background-position:center;
+       border: 3px solid rgb(11, 241, 11);  
+        background-color: white;    
+    }
+    50% {
+      background-image: url("./images/scissors.png");
+      background-repeat: no-repeat;
+      background-position:center;
+       border: 3px solid rgb(11, 241, 11);  
+        background-color: white;    
+    }
+    60% {
+      background-image: url("./images/rock.png");
+      background-repeat: no-repeat;
+      background-position:center;
+       border: 3px solid rgb(11, 241, 11); 
+        background-color: white;     
+    }
+    70% {
+      background-image: url("./images/paper.png");
+      background-repeat: no-repeat;
+      background-position:center;
+      border: 3px solid rgb(11, 241, 11);
+       background-color: white;
+      
+    }
+    80% {
+      background-image: url("./images/scissors.png");
+      background-repeat: no-repeat;
+      background-position:center;
+       border: 3px solid rgb(11, 241, 11); 
+        background-color: white;     
+    }
+    90% {
+      background-image: url("./images/rock.png");
+      background-repeat: no-repeat;
+      background-position:center;
+       border: 3px solid rgb(11, 241, 11); 
+        background-color: white;     
+    }
+    100% {
+      background-image: url("./images/paper.png");
+      background-repeat: no-repeat;
+      background-position:center;
+       border: 3px solid rgb(11, 241, 11); 
+        background-color: white;     
+    }
+  }
+  
+  
